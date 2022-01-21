@@ -4,14 +4,29 @@ body {padding: 35px;
 }
 
 header {
+    background-color:rgb(40, 14, 211);
+    color:white;
     font-family:'Lucida Sans';  
     text-shadow: 2px 2px 10px black;
     text-align: left;
-    border-radius: 10px; box-shadow: black 5px 5px 15px;  
+    border-radius: 10px; box-shadow: black 5px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    -ms-flex-item-align: start; 
+    
 }
 
 h1 {
-    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align:right;
+}
+
+img {
+    padding: 1%;
 }
 
 h2 {
@@ -19,14 +34,14 @@ h2 {
     text-align:left; font-size: 25px;
     color: black;
     text-shadow: 2px 2px 10px black;
-
 }
 
 footer{
-    background-color: blue;
+    background-color:rgb(40, 14, 211);
     color:cornflowerblue;
     text-align: center; font-size: 15px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+    color: white;
 }
