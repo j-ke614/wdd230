@@ -5,7 +5,7 @@ body {padding: 35px;
 
 header {
     display: grid;
-    grid-template-columns: 20px 130px auto;
+    grid-template-columns: 40px 130px auto;
     grid-template-rows: 50px 125px 50px;
     background-color:rgb(40, 14, 211);
     color:white;
