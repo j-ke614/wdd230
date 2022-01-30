@@ -1,8 +1,15 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+-webkit-text-size-adjust: 100%; 
+-ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { 
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+ }
 
 
 /*----------- BODY --------------*/
@@ -14,81 +21,135 @@ body {
 
 /*----------- HEADER --------------*/
 header {
-    color:#FDFDFD;
-    padding: .5rem 2%;
-    background-color: #FF5733;
-    font-family: 'Montserrat', sans-serif;
+  color:#FDFDFD;
+  padding: 0.5rem top;
+  background-color: #FF5733;
+  font-family: 'Montserrat', sans-serif;
 }
-header img {float: left; margin-right: 10px; width: 25%;}
-header h1 {margin: 0; font-size: 1.3rem;}
-header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+
+header img {
+  float: left;
+  width: 20%;
+  margin: 10px;
+}
+
+header h1 {
+  margin: 0.5em 0 0 0; 
+  font-size: 1.5rem;
+}
+
+header h2 {
+  margin: 1em 0; 
+  font-weight: normal; 
+  font-size: 1rem;
+}
+
+header h2.date {
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #000000;
+  background-color: #eee;
 }
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+nav ul { 
+  list-style-type: none;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555
 }
 
 nav ul li a {
-    display: block;
-    color: #eee;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
 }
 
+nav ul li.active {
+  background-color: #000000;
+  color: #F3A695;
+}
 
 nav ul li a:hover {
-    background-color: #000000;
-    color: #F3A695;
+  background-color: #000000;
+  color: #F3A695;
 }
-nav ul li.active a {
-    background-color: #000000;
-    color: #F3A695;
+/*----------Responsive Nav-------*/
+nav ul {
+  display: none;
 }
+
+nav ul.open {
+  display: block;
+}
+
+nav {
+  background-color: #eee;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
-    min-height: 10rem;
+  padding: 0.5rem 2vw;
+  min-height: 10rem;
+}
+
+main section {
+  border: 2px solid;
+  margin-bottom: 15px;
+}
+
+main section {
+  background-color:#FDFDFD;
+  color: black;
+}
+
+main section h2 {
+  color: #000000;
+}
+
+main section h2, main section p {
+  padding: 0 0.7rem;
+}
+
+main section p {
+  line-height: 1.5rem;
+  color: #000000;
 }
 
 
 /*----------- FOOTER --------------*/
 footer {
-    color:#FDFDFD;
-    background-color: #FF5733;
-    padding: .5rem 2%;
-    text-align: center;
+  color:#FDFDFD;
+  background-color: #FF5733;
+  padding: 1.5rem 2vw;
+  text-align: center;
+  border-top: 5px solid black;
 }
-footer img {float: left; margin-right: 10px; width: 15%;}
-.colors td{
-    width: 25%;
-    height: 3em;
-  }
-.primary {
-    background-color: #FF5733;
-  }
-  .secondary {
-    background-color: #FDFDFD;
-  }
-  .accent1 {
-    background-color: #F3A695;
-  }
-  .accent2{
-      color: #ffffff;
-    background-color: #000000;
-  }
 
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+footer p a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FDFDFD;
 }
+footer p a:hover {
+  color: #F3A695;
+}
+
+footer img {margin-right: 10px; width: 100px;}
