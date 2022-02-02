@@ -3,8 +3,8 @@ function toggleMenu(){
     document.getElementById('hamburgerBtn').classList.toggle('open');   
 }
 
-const x = document.getElementById('hamburgerBtn')
-x.onclick = toggleMenu;
+const openNav = document.getElementById('hamburgerBtn')
+openNav.onclick = toggleMenu;
 
 const latestUp = document.querySelector('#latestUp');
 
