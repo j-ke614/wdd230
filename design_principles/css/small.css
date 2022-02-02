@@ -30,9 +30,9 @@ section {
 background-color:whitesmoke;
 border-radius: 10px 10px 5px 5px;
 margin: 2%;
-padding: -2px;
+padding: 2px;
 box-shadow: -15px 15px rgb(44, 40, 40);
-outline-color: 20px black;
+outline-color: 10px, black;
 }
 
 section h2 {
