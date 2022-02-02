@@ -22,7 +22,7 @@ body {
 /*----------- HEADER --------------*/
 header {
   color:#FDFDFD;
-  padding: 0.5rem top;
+  padding-top: 0.5rem;
   background-color: #FF5733;
   font-family: 'Montserrat', sans-serif;
 }
