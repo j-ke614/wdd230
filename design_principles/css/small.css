@@ -12,6 +12,7 @@ padding: 1rem;
 }
 
 header h1, header h2, section {
+text-align: center;
 margin: 0;
 padding: 0;
 }
@@ -32,7 +33,7 @@ border-radius: 10px 10px 5px 5px;
 margin: 2%;
 padding: 2px;
 box-shadow: -15px 15px rgb(44, 40, 40);
-outline-color: 10px, black;
+outline-color:black;
 }
 
 section h2 {
