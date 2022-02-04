@@ -126,18 +126,17 @@ div#banner {
   text-align: center;
   padding: 2em;
   margin-top: 1em;
-  font-size: 12pt;
-
+  font-size: 12pt;  
 }
+
+div.showme{display: block;}
+div.hideme{display: none;}
 
 h1 { 
   text-align: center;
 }
 
 section.weather h2 {text-align: center;}
-
-div.showme{display: block;}
-div.hideme{display: none;}
 
 main section {
   border: 2px solid;

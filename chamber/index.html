@@ -120,5 +120,26 @@
         </p>
     </footer>
 <script src="js/scripts.js"></script>
+<script>
+    const today = new Date ();
+    console.log(today);
+
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+
+        const banner = document.getElementById("banner");
+        if (dayNumber == 1) {
+            banner.classList.add("showme");
+        } else {
+            banner.classList.add("hideme");
+        }
+        if (dayNumber == 2) {
+            banner.classList.add("showme");
+        } else {
+            banner.classList.add("hideme");
+        }
+
+</script>
+
 </body>
 </html>
