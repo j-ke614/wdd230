@@ -49,7 +49,6 @@ header h2 {
 header div#date {
   color: black;
   text-align: center;
-  font-size: auto;
   margin-top: 2rem;
 }
 /*----------- NAVIGATION --------------*/
@@ -134,6 +133,7 @@ div#banner {
 h1 { 
   text-align: center;
 }
+
 div.showme{display: block;}
 div.hideme{display: none;}
 
