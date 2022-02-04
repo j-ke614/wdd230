@@ -44,13 +44,7 @@ header h2 {
   font-size: 1rem;
 }
 
-header h2.currentDate {
-  color: black;
-  text-align: center;
-  font-size: 1.3rem;
-}
-
-span.currentDate {
+header h2.date {
   color: black;
   text-align: center;
   font-size: 1.3rem;
