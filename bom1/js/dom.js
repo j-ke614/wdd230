@@ -3,14 +3,14 @@ var input = document.getElementById("favchap");
 var ul = document.querySelector("ul");
 var listItem = document.querySelectorAll("li");
 var dlt = document.querySelectorAll(".delete")
-//Make delete button
+//delete button
 function delButton(parent) {
 	var del = document.createElement("button");
 	del.appendChild(document.createTextNode("X"));
 	del.className = "delete";
 	parent.appendChild(del);	
 }
-//delete functionality ; specify [i] in all for loops!
+//delete function
 function deleteMe() {
 	for (var i = 0; i < dlt.length; i++) {
 	dlt[i].addEventListener("click", function() {
