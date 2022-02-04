@@ -29,8 +29,9 @@ header {
 
 header img {
   float: left;
-  width: 20%;
+  height: 88.39px;
   margin: 10px;
+  margin-top: 0px;
 }
 
 header h1 {
@@ -44,15 +45,16 @@ header h2 {
   font-size: 1rem;
 }
 
-header h2.date {
+header div#date {
   color: black;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: auto;
+  margin-top: 2rem;
 }
-
 /*----------- NAVIGATION --------------*/
 nav {
   background-color: #eee;
+  margin-top: 2rem;
 }
 
 nav ul { 
@@ -61,8 +63,12 @@ nav ul {
   margin: 0;
 }
 
+button#hamburgerButton {
+margin: 0px;
+}
+
 nav button {
-  margin: 0.2rem 2vw;
+  /* margin: 0.2rem 2vw; */
   background: transparent;
   border: none;
   font-size: 2rem;
@@ -111,6 +117,19 @@ main {
   padding: 0.5rem 2vw;
   min-height: 10rem;
 }
+
+div#banner {
+  background-color: #49b4fb;
+  color: #000000;
+  border:3px solid rgb(65, 65, 65);
+  text-align: center;
+  padding: 2em;
+  margin-top: 1em;
+  font-size: large;
+}
+
+div.showme{display: block;}
+div.hideme{display: none;}
 
 main section {
   border: 2px solid;
