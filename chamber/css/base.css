@@ -37,6 +37,7 @@ header img {
 header h1 {
   margin: 0.5em 0 0 0; 
   font-size: 1.5rem;
+  text-align: left;
 }
 
 header h2 {
@@ -119,15 +120,20 @@ main {
 }
 
 div#banner {
-  background-color: #49b4fb;
+  font-family:'Montserrat', sans-serif;
+  background-color:#F3A695;
   color: #000000;
-  border:3px solid rgb(65, 65, 65);
+  border:3px solid #3226d3;
   text-align: center;
   padding: 2em;
   margin-top: 1em;
-  font-size: large;
+  font-size: 12pt;
+
 }
 
+h1 { 
+  text-align: center;
+}
 div.showme{display: block;}
 div.hideme{display: none;}
 
@@ -173,4 +179,4 @@ footer p a:hover {
   color: #F3A695;
 }
 
-footer img {margin-right: 10px; width: 100px;}
+footer img {margin-right: 10px; height: 88.39px;}

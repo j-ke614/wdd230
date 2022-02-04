@@ -12,6 +12,7 @@ header h1 {font-size: 2rem;}
 header h2 {font-size: 1.5rem;}
 
 
+
 /*----------- NAVIGATION --------------*/
 nav ul{display: none;} 
 
@@ -39,6 +40,7 @@ main {
   main div#banner {
       grid-column: 1/5;
       grid-row: 1/1;
+      font-size: 16pt;
   }
 
   main section.hero {
