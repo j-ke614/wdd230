@@ -6,6 +6,9 @@
 <meta name="author" content="Jake Corn"/>
 <title>Home | Chamber of Commerce</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico">
 <!-- STYLE SHEETS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="css/normalize.css"/>
@@ -14,9 +17,9 @@
 <link rel="stylesheet" href="css/large.css"/>    
 </head>
 <body>
+    <div id="banner">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
 <!-- HEADER HERE -->
     <header>
-       
         <div class="header-content">
             <div class="img-box"><img src="images/logo.png" alt="logo"></div>
             <h1>Chamber of Commerce</h1>
@@ -36,19 +39,29 @@
         </nav>   
     </header>
 
-<!--CONTENT-->    
+<!--CONTENT--> 
+  
 <main>
+    <picture>
+        <source media="(max-width: 200px)" srcset="images/hero200.jpg">
+        <source media="(max-width: 500px)" srcset="images/hero500.jpg">
+        <source media="(max-width: 800px)" srcset="images/hero800.jpg">
+        <img src="images/hero1100.jpg" alt="Hero Image">
+    </picture> 
 
-    <div id="banner">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
     <h1 class="page_id">Discover</h1>
-    <section class="hero">
+        <div class="hero">
+        <section class="hero-content">
         <h2>WELCOME!</h2>
         <p>We are here for you, The Cornburg city Chamber 
             of Commerce is here to provide you the necessary tools
             and resource to make your business thrive! Here is the great
             city of Cornburg we are excited about moderated growth!
         </p>
+        <button class="btn"
+            onclick="window.location.href='join.html';">Join Now!</button>
         </section>
+        </div>
             
     <section class="events">
         <h2>Upcoming Events</h2>
@@ -60,10 +73,10 @@
 
     <section class="weather">
         <h2>WEATHER</h2>
-        <a class="weatherwidget-io" href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us" data-label_1="CORNBURG" data-label_2="WEATHER" data-theme="original" >CORNBURG WEATHER</a>
-        <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-        </script>
+        <p>Sunny today, <span id="temp">22</span> °F <br>
+        </p>
+        <p>Wind Speed: <span id="wind-speed">5</span>m/h</p>
+        <p id="wind-chill-line">Wind Chill: <span id="wind-chill"></span></p>
     </section>
 
     <section class="news">
@@ -120,6 +133,7 @@
         </p>
     </footer>
 <script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
 <script>
     const today = new Date ();
     console.log(today);
