@@ -109,9 +109,6 @@ main section.spotlight-3 {
     grid-row: 4/5;
 }
 
-div#container {
-    grid-column: 2;
-}
 
 /*----------- FOOTER --------------*/
  footer img {
