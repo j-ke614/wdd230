@@ -113,7 +113,7 @@ div#container p {
     grid-column: 2/5;
 }
 
-picture:hover {
+img:hover {
     box-shadow: 0 0 50px #333;
 }
 /*----------- FOOTER --------------*/
