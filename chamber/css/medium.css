@@ -31,7 +31,7 @@ nav ul li a{
 
 
 /*----------- MAIN --------------*/
-main {
+  main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;

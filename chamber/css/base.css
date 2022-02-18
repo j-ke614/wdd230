@@ -190,6 +190,9 @@ main section p {
 .hero-content p {
   font-size: 1.1rem;
 }
+div#container p {
+  grid-column: 2/5;
+}
 
 /*----------- FOOTER --------------*/
 footer {
