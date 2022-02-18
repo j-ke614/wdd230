@@ -109,7 +109,9 @@ main section.spotlight-3 {
     grid-row: 4/5;
 }
 
-
+div#container p {
+    grid-column: 2/5;
+}
 /*----------- FOOTER --------------*/
  footer img {
     float: left; margin-top: 50px; width: auto;
