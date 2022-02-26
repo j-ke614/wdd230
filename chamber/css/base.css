@@ -51,6 +51,14 @@ header div#date {
   text-align: center;
   margin-top: 2rem;
 }
+
+span#lastvisit {
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
 /*----------- NAVIGATION --------------*/
 nav {
   background-color: #eee;
