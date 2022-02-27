@@ -230,7 +230,7 @@ input[type=text], input[type=password] {
 	font-family: Montserrat,Arial, Helvetica, sans-serif;
 }
 select {
-  width: 18%;
+  width: 58%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -240,7 +240,7 @@ select {
 }
 
 input[type=phone] {
-  width: 81%;
+  width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -248,10 +248,22 @@ input[type=phone] {
   background: #f7f7f7;
 }
 
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+
+}
+
 input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
   background-color: #ddd;
   outline: none;
 }
+
+
 
 
 
