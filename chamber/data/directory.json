@@ -1,0 +1,52 @@
+{
+    "Businesses": [
+        {
+            "name": "Bark Trainers",
+            "link": "https://www.barkbusters.com/dog-training-rancho-cucamonga?utm_source=GMBListing&utm_medium=WebsiteClicks&utm_campaign=5-04-034",
+            "address": "2115 S Vista Avenue Boise ID 83705",
+            "phone": "+543-567-1234",
+            "membership": "silver",
+            "image": "images/barklogo.webp"
+        },
+        {
+            "name": "Insta-Cart",
+            "link": "https://www.instacart.com/",
+            "address": "5135 S Vista Avenue Boise ID 83705",
+            "phone": "+543-342-1234",
+            "membership": "gold",
+            "image": "images/instalogo.svg"
+        },
+        {
+            "name": "Mars Bars",
+            "link": "https://www.marsbar.co.uk/",
+            "address": "2215 S Vista Avenue Boise ID 83705",
+            "phone": "+543-344-1234",
+            "membership": "np",
+            "image": "images/marslogo.webp"
+        },
+        {
+            "name": "Lenity Technology",
+            "link": "https://www.lenitytech.com/rancho-cucamonga-ca/",
+            "address": "2117 S Vista Avenue Boise ID 83705",
+            "phone": "+543-347-1234",
+            "membership": "gold",
+            "image": "images/lenitytech.webp"
+        },
+        {
+            "name": "iRobot",
+            "link": "https://www.irobot.com/roomba",
+            "address": "2190 S Vista Avenue Boise ID 83705",
+            "phone": "+543-347-1884",
+            "membership": "silver",
+            "image": "images/irobotlogo.webp"
+        },
+        {
+            "name": "Bowlero",
+            "link": "https://www.bowlero.com/location/bowlero-rancho-cucamonga",
+            "address": "2506 S Vista Avenue Boise ID 83705",
+            "phone": "+543-347-1984",
+            "membership": "Gold",
+            "image": "images/bowlerologo.webp"
+        }
+    ]
+}
