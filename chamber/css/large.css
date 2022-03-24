@@ -116,6 +116,33 @@ div#container p {
 img:hover {
     box-shadow: 0 0 50px #333;
 }
+
+/*----------- DIRECTORY --------------*/
+.directory-font {
+    font-size: 0.77em;
+}
+
+.shops section {
+    max-width: 100%;
+    margin:auto;
+    
+}
+
+/*----------- GRID MODE --------------*/
+.grid {
+    max-width: 64rem;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+/*----------- LIST MODE --------------*/
+.list {
+max-width: 64rem;
+margin: auto;
+}
+
+
 /*----------- FOOTER --------------*/
  footer img {
     float: left; margin-top: 50px; width: auto;
