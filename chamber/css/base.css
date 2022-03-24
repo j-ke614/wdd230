@@ -327,7 +327,7 @@ button:hover {
   margin: 0;
 }
 .weather {
-  background: linear-gradient(90deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
+  background: linear-gradient(90deg, rgb(245, 7, 7) 0%, rgb(217, 221, 228) 100%);
 }
 
 .current-weather {
@@ -363,8 +363,8 @@ button:hover {
 }
 
 #gridMode, #listMode{
-  background-color: #acdeff;
-  border: 2px solid #0a4f77;
+  background-color: #555;
+  border: 2px solid #000000;
   border-radius: 12px;
   width: 3em;
   height: 3em;
@@ -377,6 +377,11 @@ div.buttons {
   grid-row: 2/3;
   justify-content: center;
 }
+
+button.img {
+  justify-items: center;
+}
+
 .grid {
   background-color: #acdeff;
 }
