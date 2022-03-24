@@ -1,4 +1,4 @@
-const requestURL='https://j-ke614.github.io/wdd230/chamber/data.json';
+const requestURL='https://j-ke614.github.io/wdd230/chamber/data/directory.json';
 
 const shops=document.querySelector('.shops');
 
