@@ -8,8 +8,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    companys= jsonObject['companys'];
-    companys.forEach(displayCompanys);
+    companies= jsonObject['companies'];
+    companies.forEach(displayCompanies);
   });
 
 

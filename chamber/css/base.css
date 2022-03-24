@@ -145,9 +145,8 @@ div.showme{display: block;}
 div.hideme{display: none;}
 
 h1 { 
+  justify-content: center;
   grid-column: 2/4;
-  grid-row: 1/1;
-  text-align: center;
 }
 
 section.weather h2 {text-align: center;}
@@ -373,8 +372,8 @@ button:hover {
 }
 div.buttons {
   display: flex;
+  grid-row-start: 2;
   grid-column: 2/4;
-  grid-row: 2/3;
   justify-content: center;
 }
 
@@ -383,6 +382,8 @@ button.img {
 }
 
 .grid {
+  grid-row-start: 3;
+  grid-column: 1/5;
   background-color: #acdeff;
 }
 .grid section {
@@ -396,13 +397,16 @@ button.img {
   height: auto;
   margin: auto;
 }
+.list {
+  grid-row-start: 3;
+  grid-column: 1/5;
+}
 
 .list section {
   margin: 0;
   margin-bottom: 1em;
   text-align: center;
   padding: 1.1rem;
-  
 }
 
 .list section:nth-child(even) {
