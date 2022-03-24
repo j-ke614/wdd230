@@ -1,52 +1,100 @@
 {
-    "Businesses": [
-        {
-            "name": "Bark Trainers",
-            "link": "https://www.barkbusters.com/dog-training-rancho-cucamonga?utm_source=GMBListing&utm_medium=WebsiteClicks&utm_campaign=5-04-034",
-            "address": "2115 S Vista Avenue Boise ID 83705",
-            "phone": "+543-567-1234",
-            "membership": "silver",
-            "image": "images/barklogo.webp"
-        },
-        {
-            "name": "Insta-Cart",
-            "link": "https://www.instacart.com/",
-            "address": "5135 S Vista Avenue Boise ID 83705",
-            "phone": "+543-342-1234",
-            "membership": "gold",
-            "image": "images/instalogo.svg"
-        },
-        {
-            "name": "Mars Bars",
-            "link": "https://www.marsbar.co.uk/",
-            "address": "2215 S Vista Avenue Boise ID 83705",
-            "phone": "+543-344-1234",
-            "membership": "np",
-            "image": "images/marslogo.webp"
-        },
-        {
-            "name": "Lenity Technology",
-            "link": "https://www.lenitytech.com/rancho-cucamonga-ca/",
-            "address": "2117 S Vista Avenue Boise ID 83705",
-            "phone": "+543-347-1234",
-            "membership": "gold",
-            "image": "images/lenitytech.webp"
-        },
-        {
-            "name": "iRobot",
-            "link": "https://www.irobot.com/roomba",
-            "address": "2190 S Vista Avenue Boise ID 83705",
-            "phone": "+543-347-1884",
-            "membership": "silver",
-            "image": "images/irobotlogo.webp"
-        },
-        {
-            "name": "Bowlero",
-            "link": "https://www.bowlero.com/location/bowlero-rancho-cucamonga",
-            "address": "2506 S Vista Avenue Boise ID 83705",
-            "phone": "+543-347-1984",
-            "membership": "Gold",
-            "image": "images/bowlerologo.webp"
-        }
+    "companies": [
+      {
+        "name": "Green Lawns R Us",
+        "address": "3343 W Main",
+        "phone": "208 924 5567",
+        "site": "greenlawnsrus@mail.com",
+        "img": "./images/",
+        "level": "Gold"
+      },
+      {
+        "name": "Dan's Plumbing",
+        "address": "1245 Mountain Ave",
+        "phone": "208 998 5946",
+        "site": "pipefixer@mail.com",
+        "img": "./images/",
+        "level": "Gold"
+      },
+      {
+        "name": "Fabworx Metal Fabrication",
+        "address": "5467 Pahsimeroi Ave",
+        "phone": "208 445 9582",
+        "site": "fabworx@mail.com",
+        "img": "./images/",
+        "level": "Gold"
+      },
+      {
+        "name": "Clean Streak Carpet Cleaners",
+        "address":"6657 Hillcrest St",
+        "phone": "208 445 6589",
+        "site": "nostreaks@mail.com",
+        "img": "./images/",
+        "level": "Silver"
+      },
+      {
+        "name": "Goldstein and Brower Attorneys at Law",
+        "address": "56 E Main",
+        "phone": "208 778 7894",
+        "site": "GBALawyers@mail.com",
+        "img": "./images/",
+        "level": "Silver"
+      },
+      {
+        "name": "Bull Moose Restaurant and Hotel",
+        "address": "445 W Main",
+        "phone": "208 445 4594",
+        "site": "Bullmoose@mail.com",
+        "img": "./images/",
+        "level": "Silver"
+      },
+      {
+        "name": "Hiccups Bar and Grill",
+        "address": "443 S 3rd W",
+        "phone": "208 995 9615",
+        "site": "hiccups@mail.com",
+        "img": "./images/",
+        "level": "Silver"
+      },
+      {
+        "name": "Wolverine Gym",
+        "address": "1776 Liberty Ave",
+        "phone": "208 949 9589",
+        "site": "Wolverine@mail.com",
+        "img": "./images/",
+        "level": "Platinum"
+      },
+      {
+        "name": "Jack's Tire",
+        "address": "544 S 5th W",
+        "phone": "208 445 4597",
+        "site": "jackstire@mail.com",
+        "img": "./images/",
+        "level": "Platinum"
+      },
+      {
+        "name": "Tech 2k Solutions",
+        "address": "3456 Buck Lakes Dr",
+        "phone": "208 998 4585",
+        "site": "tech.2k.solutions@mail.com",
+        "img": "./images/",
+        "level": "Platinum"
+      },
+      {
+        "name": "Mike's Lock and Key",
+        "address": "17 S 6th W",
+        "phone": "208 445 4785",
+        "site": "mikethelockbreaker@mail.com",
+        "img": "./images/",
+        "level": "Gold"
+      },
+      {
+        "name": "Tactical Solutions",
+        "address": "5466 Salmon St",
+        "phone": "208 985 5954",
+        "site": "Tactical@mail.com",
+        "img": "./images/",
+        "level": "Gold"
+      }
     ]
-}
+  }
