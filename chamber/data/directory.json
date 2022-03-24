@@ -5,7 +5,7 @@
         "address": "3343 W Main",
         "phone": "208 924 5567",
         "site": "greenlawnsrus@mail.com",
-        "img": "/images/green_lawns.png",
+        "img": "./images/green_lawns.png",
         "level": "Gold"
       },
       {
