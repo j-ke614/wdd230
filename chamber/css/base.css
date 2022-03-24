@@ -146,6 +146,7 @@ div.hideme{display: none;}
 
 h1 { 
   grid-column: 2/4;
+  grid-row: 1/1;
   text-align: center;
 }
 
@@ -338,12 +339,6 @@ button:hover {
   
 }
 
-.c-w-text{
-  padding: 0;
-  margin: 0;
-  font-size: 2.2rem;
-} 
-
 .weather img {
   width: 70px;
   padding: 0;
@@ -376,8 +371,10 @@ button:hover {
   margin:  0 1em 1em ;
   cursor: pointer;
 }
-.botons {
+div.buttons {
   display: flex;
+  grid-column: 2/4;
+  grid-row: 2/3;
   justify-content: center;
 }
 .grid {
@@ -394,7 +391,6 @@ button:hover {
   height: auto;
   margin: auto;
 }
-
 
 .list section {
   margin: 0;
