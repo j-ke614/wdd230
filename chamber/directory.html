@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="description" content="Home Page"/>
+<meta name="description" content="Directory"/>
 <meta name="author" content="Jake Corn"/>
 <title>Home | Chamber of Commerce</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <!-- favicon -->
+
 <link rel="shortcut icon" href="favicon.ico">
+
 <!-- STYLE SHEETS -->
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="css/normalize.css"/>
 <link rel="stylesheet" href="css/base.css"/>
@@ -19,56 +22,64 @@
 </head>
 <body>
     <div id="banner">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
-<!-- HEADER HERE -->
-    <header>
-        <div class="header-content">
-            <div class="img-box"><img src="images/logo.webp" alt="logo"></div>
-            <h1>Chamber of Commerce</h1>
-            <h2>Cornburg: Where you business grows!</h2>
-        </div> 
 
-        <div id="date"><span id="currentDate"></span></div> 
+    <!-- HEADER HERE -->
+
+<header>
+
+    <div class="header-content">
+        <div class="img-box"><img src="images/logo.webp" alt="logo"></div>
+        <h1>Chamber of Commerce</h1>
+        <h2>Cornburg: Where you business grows!</h2>
+        </div> 
+    <div id="date"><span id="currentDate"></span></div> 
             
-        <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li class="active"><a href="directory.html">Directory</a></li>    
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>    
             </ul>
-        </nav>   
-    </header>
+    </nav>   
+</header>
 
 <!--CONTENT--> 
   
-<main>
-    
-</main>
+<main class="directory-font">
+    <h1>Directory</h1>
+      <div class="buttons">
+          <button id="gridMode"><img src="images/grid-icon.png" alt="grid-icon" width="20" height="20"></button>
+          <button id="listMode"><img src='images/list-icon.png' alt="list icon" width="20" height="20"></button>
+      </div>
+      <div class="shops grid" id="on"></div>      
+  </main>
+
 <!-- FOOTER HERE -->   
-    <footer>
-        <div class="footer-content-1">
-            <div class="footer-logo-side">
-                <img src="images/logo.webp" alt="logo">
-                <p>Cornburg Chamber of Commerce<br />2350 W Main Cornburg, Idaho 83440</p>
-            </div>
-            <div class ="footer-map-side">
-                <p>chamberofcorn@gmail.com<br />+1 208 558-9521</p>
-                <p>
-                    <a
-                      target="_blank"
-                      href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
-                      >Location Map
-                    </a>
-                </p>
-            </div>
+
+<footer>
+    <div class="footer-content-1">
+        <div class="footer-logo-side">
+            <img src="images/logo.webp" alt="logo">
+            <p>Cornburg Chamber of Commerce<br />2350 W Main Cornburg, Idaho 83440</p>
         </div>
-        <p>&copy; 2022 Cornburg Chamber &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
-        <span id="latestUp"></span>
-        </p>
-        <span id="lastvisit"></span>
-    </footer>
-<script src="./js/directory.js"></script>
+        <div class ="footer-map-side">
+            <p>chamberofcorn@gmail.com<br />+1 208 558-9521</p>
+            <p>
+                <a target="_blank"href="https://goo.gl/maps/2rasVwyVBZE4VDxt5">Location Map
+                </a>
+            </p>
+        </div>
+    </div>
+    <p>&copy; 2022 Cornburg Chamber &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
+    <span id="latestUp"></span>
+    </p>
+    <span id="lastvisit"></span>
+</footer>
+
+<script src="js/directory.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/windchill.js"></script>
 <script src="js/last_visit.js"></script>
