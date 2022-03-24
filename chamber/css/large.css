@@ -6,6 +6,12 @@ main, nav ul, footer {
     max-width: 64rem;
     margin: auto;
 }
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
 /*----------- HEADER --------------*/
 /*----------- NAVIGATION --------------*/
 nav ul {

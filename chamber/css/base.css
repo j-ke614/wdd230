@@ -264,9 +264,36 @@ input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, sel
   outline: none;
 }
 
+.btn, .event p button{
+  background-color: #0a4f77da;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px 4px 4px 4px;
+}
+.discover-grid p{
+  text-align: center;
+  margin: 0.4em 0 1em;
+}
+.discover-p {
+  text-align: justify;
+}
+picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
 
-
-
+.event {
+  text-align: center;
+  font-size: 1.1rem;
+  background-image: url('../images/dance.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.event p {
+  background-color: rgba(255, 255, 255, 0.70);
+  padding: 1rem;
+}
+.event p button{
+  margin-top: 1rem;
+}
 
 /* Set a style for all buttons */
 button {
@@ -293,7 +320,103 @@ button:hover {
      width: 100%;
   }
 }*/
+/*----------- Weather ----------------*/
 
+.weather p {
+  margin: 0;
+}
+.weather {
+  background: linear-gradient(90deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 0;
+  
+}
+
+.c-w-text{
+  padding: 0;
+  margin: 0;
+  font-size: 2.2rem;
+} 
+
+.weather img {
+  width: 70px;
+  padding: 0;
+  margin: 0 -3px 0 0;
+  background-color: white;
+  border-radius: 100px;
+}
+
+#weather-desc {
+  color: rgba(0, 0, 0, 0.4);
+  margin: -8px 0 16px;
+  font-size: .8rem;
+}
+
+.weather a {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: .6rem;
+}
+
+.directory-font h1{
+  text-align: center;
+}
+
+#gridMode, #listMode{
+  background-color: #acdeff;
+  border: 2px solid #0a4f77;
+  border-radius: 12px;
+  width: 3em;
+  height: 3em;
+  margin:  0 1em 1em ;
+  cursor: pointer;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  background-color: #acdeff;
+}
+.grid section {
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 1rem;
+  background-color: #fdfeff;
+}
+.grid img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+
+.list section {
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: 1.1rem;
+  
+}
+
+.list section:nth-child(even) {
+  background-color: #acdeff;
+}
+.list h2 {
+  color: #000;
+  font-family: "Roboto", cursive;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+.list img {
+  display: none;
+}
 /*----------- FOOTER --------------*/
 footer {
   color:#FDFDFD;
