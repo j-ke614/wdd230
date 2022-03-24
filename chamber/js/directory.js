@@ -14,7 +14,7 @@ fetch(requestURL)
 
 
 
-function displayCompanys(comp){
+function displayCompanies(comp){
   let company=document.createElement('section');
   let img=document.createElement('img');
   let h2=document.createElement('h2');
