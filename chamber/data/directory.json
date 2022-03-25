@@ -13,15 +13,15 @@
         "address": "1245 Mountain Ave",
         "phone": "208 998 5946",
         "site": "pipefixer@mail.com",
-        "img": "./images/",
+        "img": "./images/plumber.png",
         "level": "Gold"
       },
       {
-        "name": "Fabworx Metal Fabrication",
+        "name": "Precision Welding & Fabrication",
         "address": "5467 Pahsimeroi Ave",
         "phone": "208 445 9582",
-        "site": "fabworx@mail.com",
-        "img": "./images/",
+        "site": "precision@mail.com",
+        "img": "./images/precision.png",
         "level": "Gold"
       },
       {
@@ -29,7 +29,7 @@
         "address":"6657 Hillcrest St",
         "phone": "208 445 6589",
         "site": "nostreaks@mail.com",
-        "img": "./images/",
+        "img": "./images/carpet.png",
         "level": "Silver"
       },
       {
@@ -37,7 +37,7 @@
         "address": "56 E Main",
         "phone": "208 778 7894",
         "site": "GBALawyers@mail.com",
-        "img": "./images/",
+        "img": "./images/lawyer.png",
         "level": "Silver"
       },
       {
@@ -45,7 +45,7 @@
         "address": "445 W Main",
         "phone": "208 445 4594",
         "site": "Bullmoose@mail.com",
-        "img": "./images/",
+        "img": "./images/moose.png",
         "level": "Silver"
       },
       {
@@ -53,7 +53,7 @@
         "address": "443 S 3rd W",
         "phone": "208 995 9615",
         "site": "hiccups@mail.com",
-        "img": "./images/",
+        "img": "./images/hiccups.png",
         "level": "Silver"
       },
       {
@@ -61,7 +61,7 @@
         "address": "1776 Liberty Ave",
         "phone": "208 949 9589",
         "site": "Wolverine@mail.com",
-        "img": "./images/",
+        "img": "./images/wolverine.png",
         "level": "Platinum"
       },
       {
@@ -69,7 +69,7 @@
         "address": "544 S 5th W",
         "phone": "208 445 4597",
         "site": "jackstire@mail.com",
-        "img": "./images/",
+        "img": "./images/tires.png",
         "level": "Platinum"
       },
       {
@@ -77,7 +77,7 @@
         "address": "3456 Buck Lakes Dr",
         "phone": "208 998 4585",
         "site": "tech.2k.solutions@mail.com",
-        "img": "./images/",
+        "img": "./images/tech.png",
         "level": "Platinum"
       },
       {
@@ -85,7 +85,7 @@
         "address": "17 S 6th W",
         "phone": "208 445 4785",
         "site": "mikethelockbreaker@mail.com",
-        "img": "./images/",
+        "img": "./images/locksmith.png",
         "level": "Gold"
       },
       {
@@ -93,7 +93,7 @@
         "address": "5466 Salmon St",
         "phone": "208 985 5954",
         "site": "Tactical@mail.com",
-        "img": "./images/",
+        "img": "./images/tactical.png",
         "level": "Gold"
       }
     ]

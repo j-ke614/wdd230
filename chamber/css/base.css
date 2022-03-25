@@ -377,8 +377,14 @@ div.buttons {
   justify-content: center;
 }
 
-button.img {
-  justify-items: center;
+button#gridMode {
+  display: flex;
+  justify-content: center;
+}
+
+button#listMode {
+  display: flex;
+  justify-content: center;
 }
 
 .grid {
