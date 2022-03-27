@@ -12,7 +12,7 @@
 // }
 
 //ADD the key and change units to metric
-const apiURL = '\data\city.list.json'
+const apiURL = 'https://github.com/j-ke614/wdd230/blob/main/chamber/data/city.list.json'
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -25,7 +25,7 @@ fetch(apiURL)
     let windSpeed=weatherInfo.wind.speed;
     windSpeed=windSpeed.toFixed(1)
     
-    document.getElementById('place').innerHTML=weatherInfo.name;
+    document.getElementById('name').innerHTML=weatherInfo.name;
     document.getElementById('currentTemp').innerHTML=temperature-(210.30000000000001)+'° F';
     document.getElementById('windSpeed').innerHTML='Wind Speed: '+windSpeed;
 
