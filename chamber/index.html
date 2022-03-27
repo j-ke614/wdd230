@@ -73,17 +73,26 @@
         </section>
 
     <section class="weather">
-        <h2>WEATHER</h2>
-        <p>Sunny today, <span id="temp">22</span> °F <br>
-        </p>
-        <p>Wind Speed: <span id="wind-speed">5</span>m/h</p>
-        <p id="wind-chill-line">Wind Chill: <span id="wind-chill"></span></p>
+        <h2>Weather</h2>
+        <h3><span id="place"></span>City</h3>
+        <section class="current-weather">
+            <img src="#" id="weathericon" alt="" />
+            <section class="c-w-text">
+                <span id="currentTemp"></span>
+                <p id="weather-desc"></p>
+            </section>
+        </section>
+        <p class="w-speed"><span id="windSpeed"></span>m/s</p>
+        <p class="w-chill"><span id="wind-chill"></span> </p>
+        <span id="icon-src"></span>
     </section>
 
     <section class="news">
         <h2>News Realease</h2>
         <p>
-        Jim Deere to build manufacturing plant!
+        Jim Deere to build manufacturing plant! The Major farm implement and tractor supplier, released plans to build a major manufactureing plant here in our growing community.
+        The 1.5 million dollar project, is said to bring over 400 new jobs to the area. The local government officals and public have expressed appreciation and excitement for the new 
+        oppurtunity. 
         </p>
     </section>
 
@@ -92,7 +101,10 @@
         <p>
        Register Here to be apart of Cornburgs Local Chamber of Commerce!
         </p>
-        <p>-------FORM HERE-------</p>
+        <div class="clearfix">
+
+            <button type="submit" class="btn" onclick="window.location.href='join.html'">Join</button>
+        </div>
     </section>
 
     <section class="spotlight-1">
