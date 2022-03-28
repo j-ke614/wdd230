@@ -73,18 +73,11 @@
         </section>
 
     <section class="weather">
-        <h2>Weather</h2>
-        <h3><span id="place"></span>City</h3>
-        <section class="current-weather">
-            <img src="#" id="weathericon" alt="" />
-            <section class="c-w-text">
-                <span id="currentTemp"></span>
-                <p id="weather-desc"></p>
-            </section>
-        </section>
-        <p class="w-speed"><span id="windSpeed"></span>m/s</p>
-        <p class="w-chill"><span id="wind-chill"></span> </p>
-        <span id="icon-src"></span>
+        <h2>Weather</h2> 
+        <div id="weather"></div>
+        <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 22,cityid: '5605242',appid: 'a69eb90c84107306095213e00d60dbba',units: 'imperial',containerid: 'weather',  });  
+        (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+        var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
     </section>
 
     <section class="news">

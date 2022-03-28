@@ -351,39 +351,9 @@ form {
   grid-row: 3/4;
 }
 /*----------- Weather ----------------*/
-
-.weather p {
-  margin: 0;
+div#weather {
+  padding: 15px;
 }
-
-.current-weather {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: start;
-  padding: 0;
-  
-}
-
-.weather img {
-  width: 70px;
-  padding: 0;
-  margin: 0 -3px 0 0;
-  background-color: white;
-  border-radius: 100px;
-}
-
-#weather-desc {
-  color: rgba(0, 0, 0, 0.4);
-  margin: -8px 0 16px;
-  font-size: .8rem;
-}
-
-.weather a {
-  color: rgba(0, 0, 0, 0.2);
-  font-size: .6rem;
-}
-
 .directory-font h1{
   text-align: center;
 }
