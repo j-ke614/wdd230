@@ -1,6 +1,6 @@
-const requestURL='https://j-ke614.github.io/wdd230/chamber/data/directory.json';
+const requestURL='https://github.com/j-ke614/temple/data/temples.json';
 
-const shops=document.querySelector('.shops');
+const temples=document.querySelector('.temples');
 
 fetch(requestURL)
   .then(function (response) {

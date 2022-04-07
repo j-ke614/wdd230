@@ -1,0 +1,558 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+-webkit-text-size-adjust: 100%; 
+-ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { 
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+ }
+
+
+/*----------- BODY --------------*/
+body {
+  background-size: cover;
+  font-family: "open sans";
+  max-height: 100vw;
+  max-width: 100vw;
+  width: 100vw;
+  background-image: url('../images/sacramento-temple.webp');
+  background-attachment: fixed;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+  color:#FDFDFD;
+  padding-top: 0.5rem;
+  background-color: rgba(41, 35, 158, 0.25);
+  font-family: 'Montserrat', sans-serif;
+  height: 400px;
+}
+
+header img {
+  height: auto;
+  max-width: 150px;
+  margin: 10px;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+div.img-box {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  margin: 0.5em 0 0 0; 
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header h2 {
+  margin: 1em 0; 
+  font-weight: normal; 
+  font-size: 1rem;
+  text-align: center;
+}
+
+header div#date {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+span#lastvisit {
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*----------- NAVIGATION --------------*/
+ nav {
+   background-color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ }
+
+ul#primaryNav {
+  background-color:white;
+  margin-top: 2rem;
+}
+
+nav ul { 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button#hamburgerButton {
+margin: 0px;
+}
+
+nav button {
+  /* margin: 0.2rem 2vw; */
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: rgb(0, 0, 0)
+}
+
+nav ul li a {
+  display: block;
+  font-weight: bold;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+nav ul li.active {
+  background-color: #000000;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  color: white;
+}
+/*----------Responsive Nav-------*/
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/*----------- MAIN --------------*/
+img {
+  max-width: 25vw;
+  margin: 15px;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  border-radius: 20px;
+}
+
+main {
+  font-size: large;
+  padding: 0.5rem 2vw;
+  min-height: 10rem;
+}
+
+
+div.showme{display: block;}
+div.hideme{display: none;}
+
+h1.page_id { 
+  text-align: center;
+  grid-column: 2/4;
+}
+
+section.weather h2 {text-align: center;}
+
+/* main section {
+  border: 2px solid;
+  margin-bottom: 15px;
+} */
+
+main section {
+  /* background-color:#FDFDFD; */
+  background-color: rgb(255, 255, 255, .55);
+  border-radius: 20px;
+}
+
+main section h2 {
+  color: rgb(0, 0, 0);
+}
+
+main section h2, main section p {
+  padding: 0 0.7rem;
+}
+
+main section p {
+  line-height: 1.5rem;
+  color: rgb(0, 0, 0)e;
+}
+
+.btn {
+  background-color: #0a4f77da;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.hero h1 {
+  min-width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.hero-content {
+  /* background-color: rgba(255, 255, 255, 0.65); */
+  padding: 1.5rem;
+  text-align: center;
+
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+}
+div#container p {
+  grid-column: 2/5;
+}
+
+div#spot-content {
+  text-align: center;
+}
+
+div.clearfix {
+  padding: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+section.news {
+  justify-content: center;
+}
+
+/* Add padding to container elements */
+form {
+  grid-column: 2/4;
+  padding: 20px;
+  width:auto;
+  border:1px solid #ccc;
+  border-radius:10px;
+  background:white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+select {
+  width: 58%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+input[type=phone] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn, .event p button{
+  background-color: #0a4f77da;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px 4px 4px 4px;
+}
+.discover-grid p{
+  text-align: center;
+  margin: 0.4em 0 1em;
+}
+.discover-p {
+  text-align: justify;
+}
+picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
+
+.event {
+  text-align: center;
+  font-size: 1.1rem;
+  background-image: url('../images/dance.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.event p {
+  background-color: rgba(255, 255, 255, 0.70);
+  padding: 1rem;
+}
+.event p button{
+  margin-top: 1rem;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #0eb7f4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Change styles for signup button on extra small screens
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}*/
+h3 {
+  grid-row: 1/1;
+  grid-column: 1/1;
+}
+section.contact-info {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+section.contact-info-1{
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+form {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+/*----------- Weather ----------------*/
+div#weather {
+  padding: 15px;
+}
+.directory-font h1{
+  text-align: center;
+}
+
+#gridMode, #listMode{
+  background-color: #555;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  width: 3em;
+  height: 3em;
+  margin:  0 1em 1em ;
+  cursor: pointer;
+}
+div.buttons {
+  display: flex;
+  grid-row-start: 2;
+  grid-column: 2/4;
+  justify-content: center;
+}
+
+button#gridMode {
+  display: flex;
+  justify-content: center;
+}
+
+button#listMode {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  grid-row-start: 3;
+  grid-column: 1/5;
+  background-color: #acdeff;
+}
+.grid section {
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 1rem;
+  background-color: #fdfeff;
+}
+.grid img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.list {
+  grid-row-start: 3;
+  grid-column: 1/5;
+}
+
+.list section {
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: 1.1rem;
+}
+
+.list section:nth-child(even) {
+  background-color: #acdeff;
+}
+.list h2 {
+  color: white;
+  font-family: "Roboto", cursive;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+.list img {
+  display: none;
+}
+/*----------- FOOTER --------------*/
+footer {
+  color:#FDFDFD;
+  background-color: rgba(41, 35, 158, 0.25);
+  padding: 1.5rem 2vw;
+  text-align: center;
+  border-top: 5px solid black;
+}
+
+footer p a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FDFDFD;
+}
+footer p a:hover {
+  color: #F3A695;
+}
+
+footer img {margin-right: 10px; height: 88.39px;}
+
+.slide-social{
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+  width: 150px;
+  height: 48px;
+  background: #F1F1F1;
+}
+
+.slide-social .button{
+  position: absolute;
+  margin: 15px 0 0 55px;
+}
+
+.slide-social a{
+  display: none; 
+}
+
+.icon{
+  float: left;
+  padding-top: 15px;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+.icon i{
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+.slide{
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 100%;
+}
+
+.slide p{
+  position: relative;
+  top: 15px;
+  margin: 0;
+  border-left: 1px solid rgb(255,255,255); /* IE < 9 Fallback Colour */
+  border-left: 1px solid rgba(255,255,255,0.3);
+  color: #FFF;
+  text-align: center;
+  font-weight: 600;
+}
+
+.twitter{
+  background: #00acee;
+}
+
+.google-plus{
+  background: #db4a39;
+}
+
+.linkedin{
+  background: #0e76a8;
+}
+
+.slide-social:hover .slide{
+  -webkit-transform: translate(101%, 0);
+  -moz-transform: translate(101%, 0);
+  -ms-transform: translate(101%, 0);
+  -o-transform: translate(101%, 0);
+  transform: translate(101%, 0);
+}
+
+.no-cssanimations .slide{
+  display: none; 
+}
+
+.touch .slide{
+  display: none; 
+}
+
+/* Transition */
+
+.slide{
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+/* Example Media Queries */
+
+@media only screen and (max-width : 30em) { /* 480px/16px = 30em */
+
+  .slide-social{
+      width: 100%;
+  }
+
+  .slide-social .button{
+      position: absolute;
+      margin-left: 50%;
+  }
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Home Page"/>
+<meta name="author" content="Jake Corn"/>
+<title> Discover | Chamber of Commerce</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/medium.css"/>
+<link rel="stylesheet" href="css/large.css"/>    
+</head>
+<body>
+    <div id="banner">"Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
+<!-- HEADER HERE -->
+    <header>
+        <div class="header-content">
+            <div class="img-box"><img src="images/logo.webp" alt="logo"></div>
+            <h1>Chamber of Commerce</h1>
+            <h2>Cornburg: Where you business grows!</h2>
+        </div> 
+
+        <div id="date"><span id="currentDate"></span></div>
+        
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>    
+            </ul>
+        </nav>   
+    </header>
+
+<!--CONTENT-->
+<main>
+    <div id="container">
+        <h1 class="page_id">Discover</h1>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_5.jpg" alt="town_photo_5">
+            </picture>
+        <p>We have serveral succesful businesses here in Cornburg, ranging from great places to eat, to Contractors providing quality services.</p>
+        
+        
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_1.jpg" alt="town_photo_1">
+            </picture>
+        <p>Come talk a walk through downtown where we have worked hard to inspire growth while striving to keep the oringinal storefronts looking authentic and nostaligc.</p>
+        
+        
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_2.jpg" alt="town_photo_2">
+            </picture>
+        <p>Here is one of our great downtown storefronts. Ongoing upgrades and cleanups take places as the ower strives to keep the place up to date but also authentic.</p>
+        
+
+       
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_3.jpg" alt="town_photo_3">
+            </picture>
+        <p>Several new small businesses have recently opened up here in town, including a small shipping company working to expand your market horizons.</p>
+        
+
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_4.jpg" alt="town_photo_4">
+            </picture>
+        <p>A recent deli has just opened up in town. Show them our support! Menu items include sandwhiches, soups, and other common deli foods!</p>
+       
+        
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_6.jpg" alt="town_photo_6">
+            </picture>
+        <p>Crews move equipment in place to begin construction</p>
+       
+
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_7.jpg" alt="town_photo_7">
+            </picture>
+        <p>New Super Grocers supermarket well underway. This will be a great addition to our town and provide great local food options.</p>
+      
+
+        
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_9.jpg" alt="town_photo_9">
+            </picture>
+        <p>Crews move in equipment and start ground prep as Jim Deer manufacturing plant breaks grounds this week</p>
+      
+        
+       
+            <picture>
+                <img src="images/placeholder.png" data-src="images/townphoto_8.jpg" alt="town_photo_8">
+            </picture>
+        <p>The Jim Deer Manufacturing plant will provide over 600 new jobs for our local residents.</p>
+          
+      </div>
+</main> 
+
+<!-- FOOTER HERE -->   
+    <footer>
+        <div class="footer-content-1">
+            <div class="footer-logo-side">
+                <img src="images/logo.webp" alt="logo">
+                <p>Cornburg Chamber of Commerce<br />2350 W Main Cornburg, Idaho 83440</p>
+            </div>
+            <div class ="footer-map-side">
+                <p>chamberofcorn@gmail.com<br />+1 208 558-9521</p>
+                <p>
+                    <a
+                      target="_blank"
+                      href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
+                      >Location Map
+                    </a>
+                </p>
+            </div>
+        </div>
+        <p>&copy; 2022 Cornburg Chamber &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
+        <span id="latestUp"></span>
+        </p>
+        <span id="lastvisit"></span>
+    </footer>
+<script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/img_load.js"></script>
+<script src="js/last_visit.js"></script>
+<script>
+    const today = new Date ();
+    console.log(today);
+
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+
+        const banner = document.getElementById("banner");
+        if (dayNumber == 1) {
+            banner.classList.add("showme");
+        } else {
+            banner.classList.add("hideme");
+        }
+        if (dayNumber == 2) {
+            banner.classList.add("showme");
+        } else {
+            banner.classList.add("hideme");
+        }
+</script>
+</body>
+</html>
