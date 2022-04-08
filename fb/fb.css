@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+}
+
+.container {
+  /* background: skyblue; */
+  height: 100%;
+  width: auto;
+  margin: 6% 14%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .heading {
+  max-width: max-content;
+}
+
+.r-logs .heading #logo {
+  color: #1877f2;
+  font-family: "Titillium Web";
+  font-weight: bolder;
+  font-size: 2.7rem;
+  letter-spacing: -1px;
+}
+
+.r-logs .heading h2 {
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 1.7rem;
+}
+
+.r-logs .heading p {
+  color: rgb(80, 80, 80);
+  font-family: arial;
+  font-size: 0.9rem;
+}
+
+.r-logs .accounts {
+  margin: 7% -2%;
+  display: flex;
+}
+
+.r-logs .accounts .acc {
+  cursor: pointer;
+  position: relative;
+  margin: 0 2%;
+  max-width: fit-content;
+  padding: 5% 5%;
+  background: white;
+  border: 1.5px solid rgb(209, 209, 209);
+  border-radius: 5%;
+  transition: 0.2s ease;
+}
+
+.r-logs .accounts .acc:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.accounts .acc #cross-icon {
+  user-select: none;
+  position: absolute;
+  text-align: center;
+  font-family: verdana;
+  font-size: 0.7rem;
+  padding: 1.6% 4%;
+  margin: 2% 2%;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+}
+
+.r-logs .accounts .acc img {
+  user-select: none;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.r-logs .accounts .acc #name {
+  user-select: none;
+  padding: 6% 0;
+  text-align: center;
+  color: rgb(80, 80, 80);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.accounts .acc:nth-child(3) {
+  background: white;
+}
+.accounts .acc:nth-child(3) img {
+  background: #f5f6f7;
+}
+.accounts .acc:nth-child(3) #name {
+  color: #1676f3;
+}
+
+.login {
+  background: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  padding: 1% 2%;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login .input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .input-fields input {
+  height: 2.8rem;
+  margin: 2% 0;
+  font-family: arial;
+  padding: 0 4%;
+  font-size: 1rem;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.login .input-fields input:focus {
+  border: 1px solid #1877f2;
+  box-shadow: 0 0 4px #1876f27a;
+}
+
+.login .input-fields #login {
+  user-select: none;
+  cursor: pointer;
+  margin: 2% 0;
+  background: #1c7af5;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 3% 0;
+  border: none;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.input-fields #login:hover {
+  background: #1873eb;
+}
+
+.input-fields p {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  font-family: arial;
+  color: #1877f2;
+  font-size: 0.8rem;
+  margin: 2% 0;
+}
+.input-fields p::before {
+  content: "";
+  background: rgb(216, 216, 216);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 210%;
+  left: 0;
+}
+
+#new-acc {
+  user-select: none;
+  cursor: pointer;
+  margin: 8% 0;
+  margin-left: 21%;
+  background: #42b72a;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 4% 6%;
+  border: none;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+#new-acc:hover {
+  background: #3aa325;
+}
+
+#new-acc:active {
+  background: #42b72a;
+}
